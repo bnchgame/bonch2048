@@ -205,7 +205,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-url", "http://git.io/bonch2048");
+  tweet.setAttribute("data-url", "http://git.io/nG6efw");
   tweet.setAttribute("data-counturl", "http://bnchgame.github.io/bonch2048/");
   tweet.textContent = "Tweet";
 
