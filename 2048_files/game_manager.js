@@ -20,18 +20,18 @@ GameManager.prototype.restart = function () {
 };
 
 // Keep playing after winning
-GameManager.prototype.keepPlaying = function () {
-  this.keepPlaying = true;
-  this.actuator.continue();
-};
+//GameManager.prototype.keepPlaying = function () {
+//  this.keepPlaying = true;
+//  this.actuator.continue();
+//};
 
-GameManager.prototype.isGameTerminated = function () {
-  if (this.over || (this.won && !this.keepPlaying)) {
-    return true;
-  } else {
-    return false;
-  }
-};
+//GameManager.prototype.isGameTerminated = function () {
+//  if (this.over || (this.won && !this.keepPlaying)) {
+//    return true;
+//  } else {
+//    return false;
+//  }
+//};
 
 // Set up the game
 GameManager.prototype.setup = function () {
